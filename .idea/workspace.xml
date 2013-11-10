@@ -2,22 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a6d9d7-9587-4940-bb40-09b65045f29d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FindOddOccurElementArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LargestContiguousSubArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MajorityElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/FindElementInPivotArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/FindMissingElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Solution.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FindOddOccurElementArray.java" afterPath="$PROJECT_DIR$/src/Array/FindOddOccurElementArray.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FindPair.java" afterPath="$PROJECT_DIR$/src/Array/FindPair.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LargestContiguousSubArray.java" afterPath="$PROJECT_DIR$/src/Array/LargestContiguousSubArray.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MajorityElement.java" afterPath="$PROJECT_DIR$/src/Array/MajorityElement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="codestruct.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/FindPair.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384023690973" ignored="false" />
-    <file path="/fragment.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384025049625" ignored="false" />
+    <file path="/fragment.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384067181610" ignored="false" />
     <file path="/Dummy.txt" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384023730957" ignored="false" />
     <file path="/MajorityElement.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384024125345" ignored="false" />
     <file path="/FindOddOccurElementArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384024487904" ignored="false" />
     <file path="/LargestCongiuousSubArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384025017219" ignored="false" />
+    <file path="/FindMissingElement.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384067343470" ignored="false" />
+    <file path="/Solution.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384067371013" ignored="false" />
+    <file path="/FindElementInPivotArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384078801521" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +72,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/FindPair.java" line="26" class="FindPair" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/Array/FindPair.java" line="28" class="Array.FindPair" package="Array">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -82,7 +86,21 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/LargestContiguousSubArray.java" line="26" class="LargestContiguousSubArray" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/Array/LargestContiguousSubArray.java" line="28" class="Array.LargestContiguousSubArray" package="Array">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Array/FindMissingElement.java" line="20" class="Array.FindMissingElement" package="Array">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -107,43 +125,74 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="FindPair.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FindPair.java">
+        <entry file="file://$PROJECT_DIR$/src/Array/FindPair.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
+            <state line="30" column="0" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="method#findPair#0;class#FindPair#0" expanded="true" />
-                <element signature="e#356#374#0" expanded="true" />
-                <element signature="e#414#432#0" expanded="true" />
+                <element signature="e#372#390#0" expanded="true" />
+                <element signature="e#430#448#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MajorityElement.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MajorityElement.java">
+        <entry file="file://$PROJECT_DIR$/src/Array/MajorityElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+            <state line="32" column="0" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FindOddOccurElementArray.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FindOddOccurElementArray.java">
+        <entry file="file://$PROJECT_DIR$/src/Array/FindOddOccurElementArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
+            <state line="15" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LargestContiguousSubArray.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LargestContiguousSubArray.java">
+      <file leaf-file-name="LargestContiguousSubArray.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array/LargestContiguousSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="24" selection-start="560" selection-end="560" vertical-scroll-proportion="0.3480826">
+            <state line="30" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="method#largestContiguousSubArray#0;class#LargestContiguousSubArray#0" expanded="true" />
-                <element signature="method#main#0;class#LargestContiguousSubArray#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="62" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindMissingElement.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array/FindMissingElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="5" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="method#findMissingElement#0;class#FindMissingElement#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindElementInPivotArray.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/FindElementInPivotArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="0.8386076">
+              <folding>
+                <element signature="method#findElementInPivotArrayUtil#0;class#FindElementInPivotArray#0" expanded="true" />
+                <element signature="method#findElementInPivotArray#0;class#FindElementInPivotArray#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,6 +221,10 @@
         <option value="$PROJECT_DIR$/src/FindOddOccurElementArray.java" />
         <option value="$PROJECT_DIR$/src/LargestCongiuousSubArray.java" />
         <option value="$PROJECT_DIR$/src/LargestContiguousSubArray.java" />
+        <option value="$PROJECT_DIR$/src/Array/LargestContiguousSubArray.java" />
+        <option value="$PROJECT_DIR$/src/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Array/FindMissingElement.java" />
+        <option value="$PROJECT_DIR$/src/Array/FindElementInPivotArray.java" />
       </list>
     </option>
   </component>
@@ -255,8 +308,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FindPair.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <option name="myItemId" value="Array" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -281,7 +334,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Application.LargestContiguousSubArray">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -373,9 +426,9 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="LargestContiguousSubArray" type="Application" factoryName="Application">
+    <configuration default="false" name="Solution" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="LargestContiguousSubArray" />
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -397,7 +450,7 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.LargestContiguousSubArray" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Solution" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -521,37 +574,62 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FindPair.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/FindPair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
+        <state line="30" column="0" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="method#findPair#0;class#FindPair#0" expanded="true" />
-            <element signature="e#356#374#0" expanded="true" />
-            <element signature="e#414#432#0" expanded="true" />
+            <element signature="e#372#390#0" expanded="true" />
+            <element signature="e#430#448#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MajorityElement.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/MajorityElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+        <state line="32" column="0" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FindOddOccurElementArray.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/FindOddOccurElementArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
+        <state line="15" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LargestContiguousSubArray.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/LargestContiguousSubArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="560" selection-end="560" vertical-scroll-proportion="0.3480826">
+        <state line="30" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="method#largestContiguousSubArray#0;class#LargestContiguousSubArray#0" expanded="true" />
-            <element signature="method#main#0;class#LargestContiguousSubArray#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="62" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/FindMissingElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="5" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#findMissingElement#0;class#FindMissingElement#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/FindElementInPivotArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="0.8386076">
+          <folding>
+            <element signature="method#findElementInPivotArrayUtil#0;class#FindElementInPivotArray#0" expanded="true" />
+            <element signature="method#findElementInPivotArray#0;class#FindElementInPivotArray#0" expanded="true" />
           </folding>
         </state>
       </provider>

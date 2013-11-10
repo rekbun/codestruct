@@ -1,3 +1,5 @@
+package Array;
+
 /**
  * Created with IntelliJ IDEA.
  * User: rakeshkumar
@@ -25,10 +27,5 @@ public class LargestContiguousSubArray {
 		}
 
 		return ret_max;
-	}
-
-	public static void main(String[] args) {
-		LargestContiguousSubArray sol= new LargestContiguousSubArray();
-		sol.largestContiguousSubArray(new int[]{-8,-4,-2,-4,-2,-1,-1,-1,-1});
 	}
 }
