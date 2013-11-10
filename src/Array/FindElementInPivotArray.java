@@ -50,11 +50,10 @@ public class FindElementInPivotArray {
 		}else if(src[x]>k) {
 			return -1;
 		}else if(src[x]<k&& src[src.length-1]>=k) {
-			findElementInPivotArrayUtil(src,x+1,src.length,k);
+			return findElementInPivotArrayUtil(src,x+1,src.length,k);
 		}else {
-			findElementInPivotArrayUtil(src,0,x-1,k);
+			return findElementInPivotArrayUtil(src,0,x-1,k);
 		}
 
-		findElementInPivotArrayUtil(src,0,src.length,k);
 	}
 }

@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a6d9d7-9587-4940-bb40-09b65045f29d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/FindElementInPivotArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/FindMissingElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Solution.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FindOddOccurElementArray.java" afterPath="$PROJECT_DIR$/src/Array/FindOddOccurElementArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FindPair.java" afterPath="$PROJECT_DIR$/src/Array/FindPair.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LargestContiguousSubArray.java" afterPath="$PROJECT_DIR$/src/Array/LargestContiguousSubArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MajorityElement.java" afterPath="$PROJECT_DIR$/src/Array/MajorityElement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Array/FindElementInPivotArray.java" afterPath="$PROJECT_DIR$/src/Array/FindElementInPivotArray.java" />
     </list>
     <ignored path="codestruct.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +14,7 @@
     <file path="/LargestCongiuousSubArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384025017219" ignored="false" />
     <file path="/FindMissingElement.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384067343470" ignored="false" />
     <file path="/Solution.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384067371013" ignored="false" />
-    <file path="/FindElementInPivotArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384078801521" ignored="false" />
+    <file path="/FindElementInPivotArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384079751636" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,10 +182,10 @@
       <file leaf-file-name="FindElementInPivotArray.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Array/FindElementInPivotArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="0.8386076">
+            <state line="54" column="19" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.6772152">
               <folding>
+                <element signature="method#findPivot#0;class#FindElementInPivotArray#0" expanded="true" />
                 <element signature="method#findElementInPivotArrayUtil#0;class#FindElementInPivotArray#0" expanded="true" />
-                <element signature="method#findElementInPivotArray#0;class#FindElementInPivotArray#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -626,10 +619,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/FindElementInPivotArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="526" selection-end="526" vertical-scroll-proportion="0.8386076">
+        <state line="54" column="19" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.6772152">
           <folding>
+            <element signature="method#findPivot#0;class#FindElementInPivotArray#0" expanded="true" />
             <element signature="method#findElementInPivotArrayUtil#0;class#FindElementInPivotArray#0" expanded="true" />
-            <element signature="method#findElementInPivotArray#0;class#FindElementInPivotArray#0" expanded="true" />
           </folding>
         </state>
       </provider>
