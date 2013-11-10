@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a6d9d7-9587-4940-bb40-09b65045f29d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Array/FindElementInPivotArray.java" afterPath="$PROJECT_DIR$/src/Array/FindElementInPivotArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/FindMedianOfArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/MergeSortedArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/Reverse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/RotateArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="codestruct.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,6 +19,10 @@
     <file path="/FindMissingElement.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384067343470" ignored="false" />
     <file path="/Solution.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384067371013" ignored="false" />
     <file path="/FindElementInPivotArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384079751636" ignored="false" />
+    <file path="/MergeSortedArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384080477215" ignored="false" />
+    <file path="/FindMedianOfArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384086960772" ignored="false" />
+    <file path="/Reverse.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384087198475" ignored="false" />
+    <file path="/RotateArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384087925978" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,19 +125,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FindPair.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/FindPair.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="method#findPair#0;class#FindPair#0" expanded="true" />
-                <element signature="e#372#390#0" expanded="true" />
-                <element signature="e#430#448#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MajorityElement.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/MajorityElement.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -179,13 +174,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindElementInPivotArray.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FindElementInPivotArray.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/FindElementInPivotArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="19" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.6772152">
+            <state line="47" column="0" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="method#findPivot#0;class#FindElementInPivotArray#0" expanded="true" />
                 <element signature="method#findElementInPivotArrayUtil#0;class#FindElementInPivotArray#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeSortedArray.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array/MergeSortedArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="12" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="method#moveToEnd#0;class#MergeSortedArray#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindMedianOfArray.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array/FindMedianOfArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="4" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="method#findMedianOfArray#0;class#FindMedianOfArray#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reverse.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array/Reverse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="15" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="method#reverse#0;class#Reverse#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RotateArray.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/RotateArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="19" selection-start="547" selection-end="547" vertical-scroll-proportion="0.88395905">
+              <folding>
+                <element signature="method#swap#0;class#RotateArray#0" expanded="true" />
+                <element signature="method#reverse#0;class#RotateArray#0" expanded="true" />
+                <element signature="method#rotate#0;class#RotateArray#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -218,6 +259,11 @@
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/Array/FindMissingElement.java" />
         <option value="$PROJECT_DIR$/src/Array/FindElementInPivotArray.java" />
+        <option value="$PROJECT_DIR$/src/Array/MergeSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/FindMedianOfArray.java" />
+        <option value="$PROJECT_DIR$/src/Reverse.java" />
+        <option value="$PROJECT_DIR$/src/Array/Reverse.java" />
+        <option value="$PROJECT_DIR$/src/Array/RotateArray.java" />
       </list>
     </option>
   </component>
@@ -619,10 +665,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/FindElementInPivotArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="19" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.6772152">
+        <state line="47" column="0" selection-start="954" selection-end="954" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="method#findPivot#0;class#FindElementInPivotArray#0" expanded="true" />
             <element signature="method#findElementInPivotArrayUtil#0;class#FindElementInPivotArray#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/MergeSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="12" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#moveToEnd#0;class#MergeSortedArray#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/FindMedianOfArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="4" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#findMedianOfArray#0;class#FindMedianOfArray#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/Reverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="15" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#reverse#0;class#Reverse#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/RotateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="19" selection-start="547" selection-end="547" vertical-scroll-proportion="0.88395905">
+          <folding>
+            <element signature="method#swap#0;class#RotateArray#0" expanded="true" />
+            <element signature="method#reverse#0;class#RotateArray#0" expanded="true" />
+            <element signature="method#rotate#0;class#RotateArray#0" expanded="true" />
           </folding>
         </state>
       </provider>
