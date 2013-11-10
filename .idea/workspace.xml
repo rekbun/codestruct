@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a6d9d7-9587-4940-bb40-09b65045f29d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/FindMedianOfArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/MergeSortedArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/Reverse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/RotateArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/FindMaxSubsequence.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="codestruct.iws" />
@@ -23,6 +20,7 @@
     <file path="/FindMedianOfArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384086960772" ignored="false" />
     <file path="/Reverse.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384087198475" ignored="false" />
     <file path="/RotateArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384087925978" ignored="false" />
+    <file path="/FindMaxSubsequence.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384093437764" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,15 +123,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MajorityElement.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/MajorityElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FindOddOccurElementArray.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/FindOddOccurElementArray.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -219,15 +208,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RotateArray.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RotateArray.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/RotateArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="19" selection-start="547" selection-end="547" vertical-scroll-proportion="0.88395905">
+            <state line="24" column="20" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="method#swap#0;class#RotateArray#0" expanded="true" />
                 <element signature="method#reverse#0;class#RotateArray#0" expanded="true" />
-                <element signature="method#rotate#0;class#RotateArray#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindMaxSubsequence.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/FindMaxSubsequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="30" selection-start="312" selection-end="312" vertical-scroll-proportion="0.4641638">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -264,6 +261,7 @@
         <option value="$PROJECT_DIR$/src/Reverse.java" />
         <option value="$PROJECT_DIR$/src/Array/Reverse.java" />
         <option value="$PROJECT_DIR$/src/Array/RotateArray.java" />
+        <option value="$PROJECT_DIR$/src/Array/FindMaxSubsequence.java" />
       </list>
     </option>
   </component>
@@ -702,12 +700,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/RotateArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="19" selection-start="547" selection-end="547" vertical-scroll-proportion="0.88395905">
+        <state line="24" column="20" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="method#swap#0;class#RotateArray#0" expanded="true" />
             <element signature="method#reverse#0;class#RotateArray#0" expanded="true" />
-            <element signature="method#rotate#0;class#RotateArray#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/FindMaxSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="312" selection-end="312" vertical-scroll-proportion="0.4641638">
+          <folding />
         </state>
       </provider>
     </entry>
