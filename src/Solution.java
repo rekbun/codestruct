@@ -1,3 +1,5 @@
+import Array.ClosestToZero;
+import Array.CountInversions;
 import Array.FindMissingElement;
 import Array.SortByFrequency;
 
@@ -10,7 +12,7 @@ import Array.SortByFrequency;
  */
 public class Solution {
 	public static void main(String[] args) {
-		SortByFrequency sol= new SortByFrequency();
-		sol.sortByFrequency(new int[]{2,5,8,2,6,5,8,8});
+		ClosestToZero sol= new ClosestToZero();
+		sol.closestToZero(new int[]{1, 60, -10, 70, -80, 85});
 	}
 }
