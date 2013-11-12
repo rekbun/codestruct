@@ -1,4 +1,5 @@
 import Array.FindMissingElement;
+import Array.SortByFrequency;
 
 /**
  * Created with IntelliJ IDEA.
@@ -9,7 +10,7 @@ import Array.FindMissingElement;
  */
 public class Solution {
 	public static void main(String[] args) {
-		FindMissingElement sol=new FindMissingElement();
-		sol.findMissingElement(new int[]{1, 2, 4,6, 3, 7, 8});
+		SortByFrequency sol= new SortByFrequency();
+		sol.sortByFrequency(new int[]{2,5,8,2,6,5,8,8});
 	}
 }
