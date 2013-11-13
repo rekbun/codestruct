@@ -1,7 +1,4 @@
-import Array.ClosestToZero;
-import Array.CountInversions;
-import Array.FindMissingElement;
-import Array.SortByFrequency;
+import Array.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -12,7 +9,13 @@ import Array.SortByFrequency;
  */
 public class Solution {
 	public static void main(String[] args) {
-		ClosestToZero sol= new ClosestToZero();
-		sol.closestToZero(new int[]{1, 60, -10, 70, -80, 85});
+		MinimumLengthSubmatrix sol=new MinimumLengthSubmatrix();
+		sol.minimumLengthSubMatrix(new int[][]{
+				{0, 1, 1, 0, 1},
+				{1, 1, 0, 1, 0},
+				{0, 1, 1, 1, 0},
+				{1, 1, 1, 1, 0},
+				{1, 1, 1, 1, 1},
+				{0, 0, 0, 0, 0}});
 	}
 }
