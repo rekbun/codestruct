@@ -9,13 +9,7 @@ import Array.*;
  */
 public class Solution {
 	public static void main(String[] args) {
-		MinimumLengthSubmatrix sol=new MinimumLengthSubmatrix();
-		sol.minimumLengthSubMatrix(new int[][]{
-				{0, 1, 1, 0, 1},
-				{1, 1, 0, 1, 0},
-				{0, 1, 1, 1, 0},
-				{1, 1, 1, 1, 0},
-				{1, 1, 1, 1, 1},
-				{0, 0, 0, 0, 0}});
+		FindLargestToTheRight sol=new FindLargestToTheRight();
+		sol.findLargestToTheRight(new int[]{1,2,5,3,2,1,3});
 	}
 }
