@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a6d9d7-9587-4940-bb40-09b65045f29d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/CountElementCount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/LargestIndexDiff.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/MaxInSizeOf.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution.java" afterPath="$PROJECT_DIR$/src/Solution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="codestruct.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/FindPair.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384023690973" ignored="false" />
     <file path="/fragment.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384438382023" ignored="false" />
-    <file path="/Dummy.txt" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384519167104" ignored="false" />
+    <file path="/Dummy.txt" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384704377311" ignored="false" />
     <file path="/MajorityElement.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384024125345" ignored="false" />
     <file path="/FindOddOccurElementArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384024487904" ignored="false" />
     <file path="/LargestCongiuousSubArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384025017219" ignored="false" />
     <file path="/FindMissingElement.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384067343470" ignored="false" />
-    <file path="/Solution.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384438925680" ignored="false" />
+    <file path="/Solution.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384707302746" ignored="false" />
     <file path="/FindElementInPivotArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384079751636" ignored="false" />
     <file path="/MergeSortedArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384080477215" ignored="false" />
     <file path="/FindMedianOfArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384086960772" ignored="false" />
@@ -32,6 +34,8 @@
     <file path="/FIndLargestToTheRight.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384438894832" ignored="false" />
     <file path="/FindLargestToTheRight.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384438506254" ignored="false" />
     <file path="/CountElementCount.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384610622967" ignored="false" />
+    <file path="/LargestIndexDiff.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384705321153" ignored="false" />
+    <file path="/MaxInSizeOf.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384707635465" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,16 +197,16 @@
       <file leaf-file-name="Solution.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="4" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+            <state line="12" column="45" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountElementCount.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CountElementCount.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/CountElementCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="22" selection-start="638" selection-end="638" vertical-scroll-proportion="0.20708956">
+            <state line="29" column="22" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="method#countElement#0;class#CountElementCount#0" expanded="true" />
                 <element signature="method#countLeftIndex#0;class#CountElementCount#0" expanded="true" />
@@ -211,20 +215,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MergeSortedArray.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/MergeSortedArray.java">
+      <file leaf-file-name="LargestIndexDiff.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array/LargestIndexDiff.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="12" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
+            <state line="41" column="19" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountInversions.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/CountInversions.java">
+      <file leaf-file-name="MaxInSizeOf.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/MaxInSizeOf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="24" column="36" selection-start="598" selection-end="598" vertical-scroll-proportion="0.39285713">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#MaxInSizeOf#0" expanded="true" />
+                <element signature="e#339#348#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -301,8 +309,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Reverse.java" />
-        <option value="$PROJECT_DIR$/src/Array/Reverse.java" />
         <option value="$PROJECT_DIR$/src/Array/RotateArray.java" />
         <option value="$PROJECT_DIR$/src/Array/FindMaxSubsequence.java" />
         <option value="$PROJECT_DIR$/src/Array/FindLeaders.java" />
@@ -315,8 +321,10 @@
         <option value="$PROJECT_DIR$/src/Array/MinimumLengthSubmatrix.java" />
         <option value="$PROJECT_DIR$/src/Array/FIndLargestToTheRight.java" />
         <option value="$PROJECT_DIR$/src/Array/FindLargestToTheRight.java" />
-        <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/Array/CountElementCount.java" />
+        <option value="$PROJECT_DIR$/src/Array/LargestIndexDiff.java" />
+        <option value="$PROJECT_DIR$/src/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Array/MaxInSizeOf.java" />
       </list>
     </option>
   </component>
@@ -354,6 +362,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -429,7 +438,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -444,9 +452,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -613,17 +621,17 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958813" sideWeight="0.60065466" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32569557" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958813" sideWeight="0.6743421" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3256579" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -688,20 +696,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/FindMedianOfArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/Reverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="15" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/RotateArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="20" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
@@ -786,19 +780,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/CountElementCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+        <state line="29" column="22" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#countElement#0;class#CountElementCount#0" expanded="true" />
+            <element signature="method#countLeftIndex#0;class#CountElementCount#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/LargestIndexDiff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="19" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/CountElementCount.java">
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="22" selection-start="638" selection-end="638" vertical-scroll-proportion="0.20708956">
+        <state line="12" column="45" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/MaxInSizeOf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="36" selection-start="598" selection-end="598" vertical-scroll-proportion="0.39285713">
           <folding>
-            <element signature="method#countElement#0;class#CountElementCount#0" expanded="true" />
-            <element signature="method#countLeftIndex#0;class#CountElementCount#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MaxInSizeOf#0" expanded="true" />
+            <element signature="e#339#348#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -9,7 +9,7 @@ import Array.*;
  */
 public class Solution {
 	public static void main(String[] args) {
-		FindLargestToTheRight sol=new FindLargestToTheRight();
-		sol.findLargestToTheRight(new int[]{1,2,5,3,2,1,3});
+		MaxInSizeOf sol=new MaxInSizeOf();
+		sol.maxInSizeOf(new int[]{1,2,5,3,2,1,3},3);
 	}
 }
