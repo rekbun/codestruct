@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a6d9d7-9587-4940-bb40-09b65045f29d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/LargestIndexDiff.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/MaxInSizeOf.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution.java" afterPath="$PROJECT_DIR$/src/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/FixedIndex.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="codestruct.iws" />
@@ -36,6 +34,7 @@
     <file path="/CountElementCount.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384610622967" ignored="false" />
     <file path="/LargestIndexDiff.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384705321153" ignored="false" />
     <file path="/MaxInSizeOf.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384707635465" ignored="false" />
+    <file path="/FixedIndex.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384788081204" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,10 +223,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxInSizeOf.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MaxInSizeOf.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/MaxInSizeOf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="36" selection-start="598" selection-end="598" vertical-scroll-proportion="0.39285713">
+            <state line="24" column="36" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#MaxInSizeOf#0" expanded="true" />
@@ -237,10 +236,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClosestToZero.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/ClosestToZero.java">
+      <file leaf-file-name="FixedIndex.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/FixedIndex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="19" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
+            <state line="14" column="17" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0055710305">
               <folding />
             </state>
           </provider>
@@ -309,7 +308,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/RotateArray.java" />
         <option value="$PROJECT_DIR$/src/Array/FindMaxSubsequence.java" />
         <option value="$PROJECT_DIR$/src/Array/FindLeaders.java" />
         <option value="$PROJECT_DIR$/src/Array/SortByFrequency.java" />
@@ -325,6 +323,7 @@
         <option value="$PROJECT_DIR$/src/Array/LargestIndexDiff.java" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/Array/MaxInSizeOf.java" />
+        <option value="$PROJECT_DIR$/src/Array/FixedIndex.java" />
       </list>
     </option>
   </component>
@@ -628,7 +627,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958813" sideWeight="0.6743421" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3256579" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3256579" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -696,13 +695,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/RotateArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="20" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/FindMaxSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="30" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
@@ -806,12 +798,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/MaxInSizeOf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="36" selection-start="598" selection-end="598" vertical-scroll-proportion="0.39285713">
+        <state line="24" column="36" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#MaxInSizeOf#0" expanded="true" />
             <element signature="e#339#348#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/FixedIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0055710305">
+          <folding />
         </state>
       </provider>
     </entry>
