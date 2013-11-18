@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a6d9d7-9587-4940-bb40-09b65045f29d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/FixedIndex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/LargestBitonicSequence.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="codestruct.iws" />
@@ -35,6 +35,7 @@
     <file path="/LargestIndexDiff.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384705321153" ignored="false" />
     <file path="/MaxInSizeOf.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384707635465" ignored="false" />
     <file path="/FixedIndex.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384788081204" ignored="false" />
+    <file path="/LargestBitonicSequence.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384794266641" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,19 +237,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FixedIndex.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FixedIndex.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array/FixedIndex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0055710305">
+            <state line="14" column="17" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Find2Smallest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Array/Find2Smallest.java">
+      <file leaf-file-name="LargestBitonicSequence.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array/LargestBitonicSequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="20" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+            <state line="37" column="18" selection-start="694" selection-end="694" vertical-scroll-proportion="0.7470238">
               <folding />
             </state>
           </provider>
@@ -308,7 +309,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/FindMaxSubsequence.java" />
         <option value="$PROJECT_DIR$/src/Array/FindLeaders.java" />
         <option value="$PROJECT_DIR$/src/Array/SortByFrequency.java" />
         <option value="$PROJECT_DIR$/src/Array/CountInversions.java" />
@@ -324,6 +324,7 @@
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/Array/MaxInSizeOf.java" />
         <option value="$PROJECT_DIR$/src/Array/FixedIndex.java" />
+        <option value="$PROJECT_DIR$/src/Array/LargestBitonicSequence.java" />
       </list>
     </option>
   </component>
@@ -695,13 +696,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/FindMaxSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/FindLeaders.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="27" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
@@ -809,7 +803,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/FixedIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0055710305">
+        <state line="14" column="17" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array/LargestBitonicSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="18" selection-start="694" selection-end="694" vertical-scroll-proportion="0.7470238">
           <folding />
         </state>
       </provider>
