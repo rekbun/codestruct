@@ -23,6 +23,8 @@ public class FindTriplet {
 				ln[i]=ln[i+1];
 			}
 		}
+		String str = "aaa";
+
 
 		for(int i=0;i<src.length;i++) {
 			if(ln[i]<src[i] && src[i]<rn[i]) {
