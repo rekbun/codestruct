@@ -10,6 +10,8 @@ Push and pop are standard stack operations.
  */
 package LinkedList;
 
+import java.util.List;
+
 public class StackToFindMiddle {
 
 	DLLNode head;
@@ -25,6 +27,7 @@ public class StackToFindMiddle {
 			node.right=head;
 			head.left=node;
 			head=node;
+			List<Integer> list = null;
 			if(size%2==0) {
 				middle=middle.left;
 			}
