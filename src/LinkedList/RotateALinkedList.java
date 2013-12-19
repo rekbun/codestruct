@@ -14,8 +14,8 @@ public class RotateALinkedList {
 		while (cnt-- > 0) {
 			i.next = head;
 			i = i.next;
-			i.next = null;
 			head = head.next;
+			i.next = null;
 		}
 		return head;
 	}
