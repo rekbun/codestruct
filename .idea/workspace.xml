@@ -9,12 +9,12 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/FindPair.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384023690973" ignored="false" />
     <file path="/fragment.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384438382023" ignored="false" />
-    <file path="/Dummy.txt" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1387479770087" ignored="false" />
+    <file path="/Dummy.txt" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1387732388952" ignored="false" />
     <file path="/MajorityElement.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384024125345" ignored="false" />
     <file path="/FindOddOccurElementArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384024487904" ignored="false" />
     <file path="/LargestCongiuousSubArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384025017219" ignored="false" />
     <file path="/FindMissingElement.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384067343470" ignored="false" />
-    <file path="/Solution.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1387481670601" ignored="false" />
+    <file path="/Solution.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1387743382238" ignored="false" />
     <file path="/FindElementInPivotArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384079751636" ignored="false" />
     <file path="/MergeSortedArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384080477215" ignored="false" />
     <file path="/FindMedianOfArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384086960772" ignored="false" />
@@ -52,6 +52,7 @@
     <file path="/SpecialListNode.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1387391002325" ignored="false" />
     <file path="/SumTwoLinkedList.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1387405788786" ignored="false" />
     <file path="/RotateALinkedList.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1387481466300" ignored="false" />
+    <file path="/FindTripletInALinkedList.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1387743477184" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +68,40 @@
   </component>
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/Array/FindPair.java" line="28" class="Array.FindPair" package="Array">
         <option name="ENABLED" value="true" />
@@ -180,7 +215,35 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/Solution.java" line="18" class="Solution" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/Solution.java" line="17" class="Solution" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Solution.java" line="16" class="Solution" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/LinkedList/FindTripletInALinkedList.java" line="25" class="LinkedList.FindTripletInALinkedList" package="LinkedList">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -195,40 +258,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -238,22 +267,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Solution.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Solution.java">
+      <file leaf-file-name="FindTripletInALinkedList.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/FindTripletInALinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="41" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.16943522">
               <folding>
-                <element signature="method#main#0;class#Solution#0" expanded="true" />
+                <element signature="method#findTriplet#0;class#FindTripletInALinkedList#0" expanded="true" />
+                <element signature="method#QuickSort#0;class#FindTripletInALinkedList#0" expanded="true" />
+                <element signature="e#1134#1293#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+                <element signature="e#1336#1506#0" expanded="true" />
+                <element signature="e#1500#1501#0" expanded="true" />
+                <element signature="method#QuickSortNow#0;class#FindTripletInALinkedList#0" expanded="true" />
+                <element signature="method#findPartition#0;class#FindTripletInALinkedList#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SwapKthNodeFromBeginningWithKthNodeFromEnd.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList/SwapKthNodeFromBeginningWithKthNodeFromEnd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -289,11 +316,7 @@
         <entry file="file://$PROJECT_DIR$/src/LinkedList/SumTwoLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="26" column="24" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="method#sumList#0;class#SumTwoLinkedList#0" expanded="true" />
-                <element signature="e#284#293#0" expanded="true" />
-                <element signature="method#findLength#0;class#SumTwoLinkedList#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -320,6 +343,15 @@
         <entry file="file://$PROJECT_DIR$/src/LinkedList/SerializeAndDeserialize.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="47" column="17" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -352,7 +384,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/LinkedList/MergeALinkedListToAnotherAtAlternativePosition.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/ListNode.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/MergeALinkedListToAnotherAtAlternativePlaces.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/QuickSortDLL.java" />
@@ -366,8 +397,9 @@
         <option value="$PROJECT_DIR$/src/LinkedList/SpecialListNode.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/FlattenLinkedList.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/SumTwoLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/RotateALinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Solution.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/FindTripletInALinkedList.java" />
       </list>
     </option>
   </component>
@@ -375,7 +407,7 @@
     <option name="x" value="10" />
     <option name="y" value="22" />
     <option name="width" value="1260" />
-    <option name="height" value="726" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -406,6 +438,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -458,11 +491,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="com.genymobile.genymotion.ide.idea.GdmSettings" />
@@ -471,11 +504,12 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -490,6 +524,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -518,19 +565,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -637,7 +671,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="22" width="1260" height="726" extended-state="0" />
+    <frame x="10" y="22" width="1260" height="725" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -645,7 +679,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39768976" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3966942" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -657,7 +691,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12273476" sideWeight="0.60231024" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12273476" sideWeight="0.60330576" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3256579" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -728,37 +762,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/FindTriplet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="10" column="18" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/QuickSortSLL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#838#0" expanded="true" />
-            <element signature="method#quickSortSLL#0;class#QuickSortSLL#0" expanded="true" />
-            <element signature="method#partition#0;class#QuickSortSLL#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="19" column="0" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/MergeALinkedListToAnotherAtAlternativePlaces.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#1317#0" expanded="true" />
-            <element signature="method#merge#0;class#MergeALinkedListToAnotherAtAlternativePlaces#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="17" column="0" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/DeleteMNodesAfterNNodes.java">
@@ -768,23 +784,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/DLLNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/ArrayList.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="0" selection-start="2297" selection-end="2297" vertical-scroll-proportion="0.6344086" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/SerializeAndDeserialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="17" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/SwapKthNodeFromBeginningWithKthNodeFromEnd.java">
@@ -808,13 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/SpecialListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/FlattenLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="80" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
@@ -825,11 +820,7 @@
     <entry file="file://$PROJECT_DIR$/src/LinkedList/SumTwoLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="24" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#sumList#0;class#SumTwoLinkedList#0" expanded="true" />
-            <element signature="e#284#293#0" expanded="true" />
-            <element signature="method#findLength#0;class#SumTwoLinkedList#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -840,11 +831,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/SpecialListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="26" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/DLLNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="5" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/SerializeAndDeserialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="17" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="41" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+        <state line="16" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/FindTripletInALinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.16943522">
           <folding>
-            <element signature="method#main#0;class#Solution#0" expanded="true" />
+            <element signature="method#findTriplet#0;class#FindTripletInALinkedList#0" expanded="true" />
+            <element signature="method#QuickSort#0;class#FindTripletInALinkedList#0" expanded="true" />
+            <element signature="e#1134#1293#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1336#1506#0" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+            <element signature="method#QuickSortNow#0;class#FindTripletInALinkedList#0" expanded="true" />
+            <element signature="method#findPartition#0;class#FindTripletInALinkedList#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,8 +1,5 @@
 import Array.*;
-import LinkedList.DeleteMNodesAfterNNodes;
-import LinkedList.ListNode;
-import LinkedList.RotateALinkedList;
-import LinkedList.StackToFindMiddle;
+import LinkedList.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,8 +10,10 @@ import LinkedList.StackToFindMiddle;
  */
 public class Solution {
 	public static void main(String[] args) {
-		RotateALinkedList sol=new RotateALinkedList();
+		FindTripletInALinkedList sol=new FindTripletInALinkedList();
 		ListNode root=new ListNode(1,new ListNode(2,new ListNode(3,new ListNode(4,new ListNode(5,new ListNode(6,new ListNode(7)))))));
-		ListNode ret=sol.rotate(root,4);
+		ListNode l2=new ListNode(15,new ListNode(3,new ListNode(4)));
+		ListNode l3=new ListNode(16,new ListNode(4,new ListNode(2)));
+		sol.findTriplet(root,l2,l3,12);
 	}
 }
