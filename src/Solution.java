@@ -1,5 +1,6 @@
-import Array.*;
-import LinkedList.*;
+import Array.CountPairWithDiffK;
+import Heap.MergeKSortedArray;
+import Heap.MinHeap;
 
 /**
  * Created with IntelliJ IDEA.
@@ -10,10 +11,20 @@ import LinkedList.*;
  */
 public class Solution {
 	public static void main(String[] args) {
-		FindTripletInALinkedList sol=new FindTripletInALinkedList();
-		ListNode root=new ListNode(1,new ListNode(2,new ListNode(3,new ListNode(4,new ListNode(5,new ListNode(6,new ListNode(7)))))));
-		ListNode l2=new ListNode(15,new ListNode(3,new ListNode(4)));
-		ListNode l3=new ListNode(16,new ListNode(4,new ListNode(2)));
-		sol.findTriplet(root,l2,l3,12);
+		CountPairWithDiffK sol= new CountPairWithDiffK();
+		int ans=sol.countPairWithDiffK(new int[]{1,5,3,4,2},3);
+		ans=sol.countPairWithDiffK(new int[]{8, 12, 16, 4, 0, 20},4);
+		MinHeap minHeap=new MinHeap(8);
+		minHeap.insert(3);
+		minHeap.insert(2);
+		minHeap.insert(4);
+		minHeap.insert(7);
+		System.out.println(minHeap.extractMin());
+		System.out.println(minHeap.extractMin());
+		MergeKSortedArray snd=new MergeKSortedArray();
+		int [] val=snd.mergeKSortedArray(new int[][]{{1,2,3}, {4,6,7},{7,8,9}});
+
 	}
+
+
 }
