@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a6d9d7-9587-4940-bb40-09b65045f29d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/Knapsack01.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/MatrixChainMultiplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution.java" afterPath="$PROJECT_DIR$/src/Solution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="codestruct.iws" />
@@ -14,7 +15,7 @@
     <file path="/FindOddOccurElementArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384024487904" ignored="false" />
     <file path="/LargestCongiuousSubArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384025017219" ignored="false" />
     <file path="/FindMissingElement.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384067343470" ignored="false" />
-    <file path="/Solution.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1390982574531" ignored="false" />
+    <file path="/Solution.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1390994398992" ignored="false" />
     <file path="/FindElementInPivotArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384079751636" ignored="false" />
     <file path="/MergeSortedArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384080477215" ignored="false" />
     <file path="/FindMedianOfArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384086960772" ignored="false" />
@@ -69,6 +70,7 @@
     <file path="/CoinChange.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1390983843226" ignored="false" />
     <file path="/EggBreak.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1390987886818" ignored="false" />
     <file path="/Knapsack01.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1390990705997" ignored="false" />
+    <file path="/MatrixChainMultiplication.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1390994715895" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,7 +316,7 @@
       <file leaf-file-name="Solution.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="72" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0">
+            <state line="21" column="66" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -331,20 +333,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Knapsack01.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Knapsack01.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DP/Knapsack01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="26" selection-start="282" selection-end="282" vertical-scroll-proportion="0.65">
+            <state line="13" column="26" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinHeap.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Heap/MinHeap.java">
+      <file leaf-file-name="MatrixChainMultiplication.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DP/MatrixChainMultiplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="1" column="83" selection-start="86" selection-end="86" vertical-scroll-proportion="0.05">
+              <folding>
+                <element signature="method#matrixChainMultiplication#0;class#MatrixChainMultiplication#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -385,7 +389,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Heap/MergeKSortedArray.java" />
         <option value="$PROJECT_DIR$/src/test/SimplePhoneNumber.java" />
         <option value="$PROJECT_DIR$/src/test/JsonUtils.java" />
         <option value="$PROJECT_DIR$/src/Array/IsFibo.java" />
@@ -397,10 +400,11 @@
         <option value="$PROJECT_DIR$/src/strings/NaivePatternSearch.java" />
         <option value="$PROJECT_DIR$/src/strings/KMP.java" />
         <option value="$PROJECT_DIR$/src/DP/CoinChange.java" />
-        <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/DP/EggBreak.java" />
         <option value="$PROJECT_DIR$/src/DP/Knapsack.java" />
         <option value="$PROJECT_DIR$/src/DP/Knapsack01.java" />
+        <option value="$PROJECT_DIR$/src/Solution.java" />
+        <option value="$PROJECT_DIR$/src/DP/MatrixChainMultiplication.java" />
       </list>
     </option>
   </component>
@@ -770,11 +774,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/NChooseK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/PriorityQueue.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="11" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
@@ -842,13 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strings/NaivePatternSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/strings/KMP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="24" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
@@ -865,13 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="72" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DP/EggBreak.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="43" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.0">
@@ -883,8 +868,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DP/Knapsack01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="282" selection-end="282" vertical-scroll-proportion="0.65">
+        <state line="13" column="26" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strings/NaivePatternSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="66" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/MatrixChainMultiplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="83" selection-start="86" selection-end="86" vertical-scroll-proportion="0.05">
+          <folding>
+            <element signature="method#matrixChainMultiplication#0;class#MatrixChainMultiplication#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

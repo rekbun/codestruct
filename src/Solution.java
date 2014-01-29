@@ -1,6 +1,7 @@
 import Array.FindMinInRotatedArray;
 import Array.MaxElementInaArray;
 import DP.CoinChange;
+import DP.MatrixChainMultiplication;
 import strings.KMP;
 
 import java.io.BufferedReader;
@@ -17,7 +18,7 @@ import java.util.Map;
  */
 public class Solution {
 	public static void main(String[] args) {
-		CoinChange coinChange =new CoinChange();
-		System.out.println(coinChange.coinChange(new int[]{1,2,3,5,6},20));
+		MatrixChainMultiplication sol= new MatrixChainMultiplication();
+		System.out.println(sol.matrixChainMultiplication(new int[]{40, 20, 30, 10, 30}));
 	}
 }
