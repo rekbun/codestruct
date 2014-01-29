@@ -18,6 +18,6 @@ import java.util.Map;
 public class Solution {
 	public static void main(String[] args) {
 		CoinChange coinChange =new CoinChange();
-		System.out.println(coinChange.coinChange(new int[]{1,2,3},4));
+		System.out.println(coinChange.coinChange(new int[]{1,2,3,5,6},20));
 	}
 }

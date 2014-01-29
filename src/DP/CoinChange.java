@@ -11,7 +11,7 @@ public class CoinChange {
 		for(int i=1;i<=n;i++) {
 			for(int j=0;j<src.length;j++) {
 				if(i-src[j]>=0 && mw[i-src[j]]>0) {
-					mw[i]++;
+					mw[i]+=mw[i-src[j]];
 				}
 			}
 		}

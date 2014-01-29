@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a6d9d7-9587-4940-bb40-09b65045f29d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/CoinChange.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strings/KMP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strings/NaivePatternSearch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DP/CoinChange.java" afterPath="$PROJECT_DIR$/src/DP/CoinChange.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution.java" afterPath="$PROJECT_DIR$/src/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="codestruct.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,7 +66,7 @@
     <file path="/FindMedianRunningIntegers.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1390640086474" ignored="false" />
     <file path="/NaivePatternSearch.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1390722448229" ignored="false" />
     <file path="/KMP.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1390727244691" ignored="false" />
-    <file path="/CoinChange.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1390983346652" ignored="false" />
+    <file path="/CoinChange.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1390983843226" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,19 +300,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoinChange.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CoinChange.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DP/CoinChange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="16" selection-start="219" selection-end="219" vertical-scroll-proportion="0.6">
+            <state line="13" column="27" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Solution.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="67" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
+            <state line="20" column="72" selection-start="562" selection-end="562" vertical-scroll-proportion="0.3">
               <folding />
             </state>
           </provider>
@@ -484,20 +481,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codestruct" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codestruct" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -700,7 +683,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3569079" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3569079" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -881,16 +864,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/DP/CoinChange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="67" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
+        <state line="13" column="27" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/CoinChange.java">
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="219" selection-end="219" vertical-scroll-proportion="0.6">
+        <state line="20" column="72" selection-start="562" selection-end="562" vertical-scroll-proportion="0.3">
           <folding />
         </state>
       </provider>
