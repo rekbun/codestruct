@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a6d9d7-9587-4940-bb40-09b65045f29d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/OptimalBinarySearchTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThoughtSpot/RateLimiter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Integral/Test1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DP/OptimalBinarySearchTree.java" afterPath="$PROJECT_DIR$/src/DP/OptimalBinarySearchTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution.java" afterPath="$PROJECT_DIR$/src/Solution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="codestruct.iws" />
@@ -14,7 +17,7 @@
     <file path="/FindOddOccurElementArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384024487904" ignored="false" />
     <file path="/LargestCongiuousSubArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384025017219" ignored="false" />
     <file path="/FindMissingElement.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384067343470" ignored="false" />
-    <file path="/Solution.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1390994398992" ignored="false" />
+    <file path="/Solution.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1391407181485" ignored="false" />
     <file path="/FindElementInPivotArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384079751636" ignored="false" />
     <file path="/MergeSortedArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384080477215" ignored="false" />
     <file path="/FindMedianOfArray.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1384086960772" ignored="false" />
@@ -70,7 +73,9 @@
     <file path="/EggBreak.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1390987886818" ignored="false" />
     <file path="/Knapsack01.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1390990705997" ignored="false" />
     <file path="/MatrixChainMultiplication.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1390994715895" ignored="false" />
-    <file path="/OptimalBinarySearchTree.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1391019646560" ignored="false" />
+    <file path="/OptimalBinarySearchTree.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1391252563342" ignored="false" />
+    <file path="/Test1.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1391329351122" ignored="false" />
+    <file path="/RateLimiter.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1391434919247" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,6 +231,48 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Solution.java" line="28" class="Solution" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/ThoughtSpot/RateLimiter.java" line="44" class="ThoughtSpot.RateLimiter" package="ThoughtSpot">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/ThoughtSpot/RateLimiter.java" line="35" class="ThoughtSpot.RateLimiter" package="ThoughtSpot">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -271,19 +318,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FindMedianRunningIntegers.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Heap/FindMedianRunningIntegers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="29" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#306#315#0" expanded="true" />
-                <element signature="e#369#378#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NaivePatternSearch.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/strings/NaivePatternSearch.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -293,41 +327,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KMP.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strings/KMP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="24" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="method#search#0;class#KMP#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoinChange.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DP/CoinChange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="27" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Solution.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="66" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EggBreak.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DP/EggBreak.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="43" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.0">
+            <state line="28" column="0" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#0#1317#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -353,12 +358,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OptimalBinarySearchTree.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="OptimalBinarySearchTree.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DP/OptimalBinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="90" selection-start="633" selection-end="633" vertical-scroll-proportion="0.85">
+            <state line="38" column="0" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#0#876#0" expanded="true" />
+                <element signature="e#0#877#0" expanded="true" />
                 <element signature="method#optimalBinarySearchTree#0;class#OptimalBinarySearchTree#0" expanded="true" />
                 <element signature="method#getSum#0;class#OptimalBinarySearchTree#0" expanded="true" />
                 <element signature="method#findSum#0;class#OptimalBinarySearchTree#0" expanded="true" />
@@ -367,10 +372,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AGetMax.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Heap/AGetMax.java">
+      <file leaf-file-name="Test1.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Integral/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
+            <state line="43" column="61" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#a#0;class#a#0" expanded="true" />
+                <element signature="method#Test1#0;class#Test1#0" expanded="true" />
+                <element signature="method#hashCode#0;class#Test1#0" expanded="true" />
+                <element signature="method#equals#0;class#Test1#0" expanded="true" />
+                <element signature="e#672#681#0" expanded="true" />
+                <element signature="e#723#732#0" expanded="true" />
+                <element signature="e#779#788#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RateLimiter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ThoughtSpot/RateLimiter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="123" column="17" selection-start="3125" selection-end="3125" vertical-scroll-proportion="0.8">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#RateLimiter#0;class#RateLimiter#0" expanded="true" />
+                <element signature="method#allow#0;class#RateLimiter#0" expanded="true" />
+                <element signature="method#TimeStampRequestCountPair#0;class#TimeStampRequestCountPair#0;class#RateLimiter#0" expanded="true" />
+                <element signature="method#SlidingWindow#0;class#SlidingWindow#0;class#RateLimiter#0" expanded="true" />
+                <element signature="method#size#0;class#SlidingWindow#0;class#RateLimiter#0" expanded="true" />
+                <element signature="method#isEmpty#0;class#SlidingWindow#0;class#RateLimiter#0" expanded="true" />
+                <element signature="method#isFull#0;class#SlidingWindow#0;class#RateLimiter#0" expanded="true" />
+                <element signature="method#move#0;class#SlidingWindow#0;class#RateLimiter#0" expanded="true" />
+                <element signature="method#getStartingTimeStampRequestCountPair#0;class#SlidingWindow#0;class#RateLimiter#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stack.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/Stack.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Deque.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/Deque.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="17" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -394,9 +446,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/JsonUtils.java" />
-        <option value="$PROJECT_DIR$/src/Array/IsFibo.java" />
-        <option value="$PROJECT_DIR$/src/Array/NChooseK.java" />
         <option value="$PROJECT_DIR$/src/Array/FindMinInRotatedArray.java" />
         <option value="$PROJECT_DIR$/src/Tree/AvlTree.java" />
         <option value="$PROJECT_DIR$/src/Array/MaxElementInaArray.java" />
@@ -407,9 +456,12 @@
         <option value="$PROJECT_DIR$/src/DP/EggBreak.java" />
         <option value="$PROJECT_DIR$/src/DP/Knapsack.java" />
         <option value="$PROJECT_DIR$/src/DP/Knapsack01.java" />
-        <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/DP/MatrixChainMultiplication.java" />
         <option value="$PROJECT_DIR$/src/DP/OptimalBinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/Integral/Test1.java" />
+        <option value="$PROJECT_DIR$/src/ThoughtSpot/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Solution.java" />
+        <option value="$PROJECT_DIR$/src/ThoughtSpot/RateLimiter.java" />
       </list>
     </option>
   </component>
@@ -493,8 +545,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DP" />
+              <option name="myItemId" value="ThoughtSpot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codestruct" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codestruct" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Integral" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test1.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -694,6 +768,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3569079" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -702,7 +777,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32786885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32730263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -712,7 +787,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46217105" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -779,41 +853,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tree/AvlTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="17" selection-start="1435" selection-end="1435" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/MaxElementInaArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/TreePrint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="30" selection-start="2554" selection-end="2554" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Heap/MergeKSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Heap/MinHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Array/FindMinInRotatedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
@@ -878,13 +917,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="66" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DP/MatrixChainMultiplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="83" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
@@ -896,12 +928,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DP/OptimalBinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="90" selection-start="633" selection-end="633" vertical-scroll-proportion="0.85">
+        <state line="38" column="0" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#876#0" expanded="true" />
+            <element signature="e#0#877#0" expanded="true" />
             <element signature="method#optimalBinarySearchTree#0;class#OptimalBinarySearchTree#0" expanded="true" />
             <element signature="method#getSum#0;class#OptimalBinarySearchTree#0" expanded="true" />
             <element signature="method#findSum#0;class#OptimalBinarySearchTree#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/Deque.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/Stack.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Integral/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="61" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#a#0;class#a#0" expanded="true" />
+            <element signature="method#Test1#0;class#Test1#0" expanded="true" />
+            <element signature="method#hashCode#0;class#Test1#0" expanded="true" />
+            <element signature="method#equals#0;class#Test1#0" expanded="true" />
+            <element signature="e#672#681#0" expanded="true" />
+            <element signature="e#723#732#0" expanded="true" />
+            <element signature="e#779#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThoughtSpot/RateLimiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="17" selection-start="3125" selection-end="3125" vertical-scroll-proportion="0.8">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#RateLimiter#0;class#RateLimiter#0" expanded="true" />
+            <element signature="method#allow#0;class#RateLimiter#0" expanded="true" />
+            <element signature="method#TimeStampRequestCountPair#0;class#TimeStampRequestCountPair#0;class#RateLimiter#0" expanded="true" />
+            <element signature="method#SlidingWindow#0;class#SlidingWindow#0;class#RateLimiter#0" expanded="true" />
+            <element signature="method#size#0;class#SlidingWindow#0;class#RateLimiter#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#SlidingWindow#0;class#RateLimiter#0" expanded="true" />
+            <element signature="method#isFull#0;class#SlidingWindow#0;class#RateLimiter#0" expanded="true" />
+            <element signature="method#move#0;class#SlidingWindow#0;class#RateLimiter#0" expanded="true" />
+            <element signature="method#getStartingTimeStampRequestCountPair#0;class#SlidingWindow#0;class#RateLimiter#0" expanded="true" />
           </folding>
         </state>
       </provider>

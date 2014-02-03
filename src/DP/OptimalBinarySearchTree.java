@@ -36,3 +36,4 @@ public class OptimalBinarySearchTree {
 		return cs;
 	}
 }
+
