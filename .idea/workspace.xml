@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a6d9d7-9587-4940-bb40-09b65045f29d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetCode/MaxProfit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetCode/NQueen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="codestruct.iws" />
@@ -73,6 +73,7 @@
     <file path="/OptimalBinarySearchTree.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1391252563342" ignored="false" />
     <file path="/Test1.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1391329351122" ignored="false" />
     <file path="/RateLimiter.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1391434919247" ignored="false" />
+    <file path="/NQueen.java" changelist="39a6d9d7-9587-4940-bb40-09b65045f29d" time="1391515328732" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,15 +316,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NaivePatternSearch.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strings/NaivePatternSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="16" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Solution.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -410,11 +402,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxProfit.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MaxProfit.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetCode/MaxProfit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="141" selection-end="141" vertical-scroll-proportion="0.36503068">
+            <state line="7" column="16" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NQueen.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetCode/NQueen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="33" selection-start="260" selection-end="260" vertical-scroll-proportion="0.78220856">
+              <folding>
+                <element signature="method#solve#0;class#NQueen#0" expanded="true" />
+                <element signature="method#canPlace#0;class#NQueen#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -455,7 +459,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Tree/AvlTree.java" />
         <option value="$PROJECT_DIR$/src/Array/MaxElementInaArray.java" />
         <option value="$PROJECT_DIR$/src/Heap/FindMedianRunningIntegers.java" />
         <option value="$PROJECT_DIR$/src/strings/NaivePatternSearch.java" />
@@ -471,6 +474,7 @@
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/ThoughtSpot/RateLimiter.java" />
         <option value="$PROJECT_DIR$/src/leetCode/MaxProfit.java" />
+        <option value="$PROJECT_DIR$/src/leetCode/NQueen.java" />
       </list>
     </option>
   </component>
@@ -858,13 +862,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Heap/AGetMax.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Heap/FindMedianRunningIntegers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="29" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
@@ -1005,8 +1002,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetCode/MaxProfit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="141" selection-end="141" vertical-scroll-proportion="0.36503068">
+        <state line="7" column="16" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode/NQueen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="33" selection-start="260" selection-end="260" vertical-scroll-proportion="0.78220856">
+          <folding>
+            <element signature="method#solve#0;class#NQueen#0" expanded="true" />
+            <element signature="method#canPlace#0;class#NQueen#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
