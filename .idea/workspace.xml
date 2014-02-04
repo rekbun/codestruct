@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a6d9d7-9587-4940-bb40-09b65045f29d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThoughtSpot/RateLimiter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Integral/Test1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DP/OptimalBinarySearchTree.java" afterPath="$PROJECT_DIR$/src/DP/OptimalBinarySearchTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution.java" afterPath="$PROJECT_DIR$/src/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetCode/MaxProfit.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="codestruct.iws" />
@@ -338,15 +335,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Knapsack01.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DP/Knapsack01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="26" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MatrixChainMultiplication.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DP/MatrixChainMultiplication.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -390,10 +378,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RateLimiter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RateLimiter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ThoughtSpot/RateLimiter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="17" selection-start="3125" selection-end="3125" vertical-scroll-proportion="0.8">
+            <state line="116" column="35" selection-start="2882" selection-end="2882" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#RateLimiter#0;class#RateLimiter#0" expanded="true" />
@@ -406,6 +394,27 @@
                 <element signature="method#move#0;class#SlidingWindow#0;class#RateLimiter#0" expanded="true" />
                 <element signature="method#getStartingTimeStampRequestCountPair#0;class#SlidingWindow#0;class#RateLimiter#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickSortSLL.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/QuickSortSLL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="28" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="method#quickSortSLL#0;class#QuickSortSLL#0" expanded="true" />
+                <element signature="method#quickSort#0;class#QuickSortSLL#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxProfit.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetCode/MaxProfit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="16" selection-start="141" selection-end="141" vertical-scroll-proportion="0.36503068">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -446,7 +455,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Array/FindMinInRotatedArray.java" />
         <option value="$PROJECT_DIR$/src/Tree/AvlTree.java" />
         <option value="$PROJECT_DIR$/src/Array/MaxElementInaArray.java" />
         <option value="$PROJECT_DIR$/src/Heap/FindMedianRunningIntegers.java" />
@@ -462,13 +470,14 @@
         <option value="$PROJECT_DIR$/src/ThoughtSpot/Solution.java" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/ThoughtSpot/RateLimiter.java" />
+        <option value="$PROJECT_DIR$/src/leetCode/MaxProfit.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="728" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -563,12 +572,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Integral" />
+              <option name="myItemId" value="leetCode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test1.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -762,7 +767,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="728" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="714" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -771,7 +776,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3569079" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36531988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -783,7 +788,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1936791" sideWeight="0.6430921" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1936791" sideWeight="0.63468015" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46217105" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -853,13 +858,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Array/FindMinInRotatedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Heap/AGetMax.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="16" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
@@ -979,7 +977,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ThoughtSpot/RateLimiter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="17" selection-start="3125" selection-end="3125" vertical-scroll-proportion="0.8">
+        <state line="116" column="35" selection-start="2882" selection-end="2882" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#RateLimiter#0;class#RateLimiter#0" expanded="true" />
@@ -992,6 +990,23 @@
             <element signature="method#move#0;class#SlidingWindow#0;class#RateLimiter#0" expanded="true" />
             <element signature="method#getStartingTimeStampRequestCountPair#0;class#SlidingWindow#0;class#RateLimiter#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/QuickSortSLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="28" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#quickSortSLL#0;class#QuickSortSLL#0" expanded="true" />
+            <element signature="method#quickSort#0;class#QuickSortSLL#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetCode/MaxProfit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="141" selection-end="141" vertical-scroll-proportion="0.36503068">
+          <folding />
         </state>
       </provider>
     </entry>
