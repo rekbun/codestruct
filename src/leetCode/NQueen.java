@@ -1,6 +1,24 @@
 package leetCode;
 
-public class NQueen {
+import javax.xml.soap.Node;
+import java.io.Serializable;
+import java.util.*;
+
+public class NQueen implements Serializable {
+
+	final transient int a=0;
+	public NQueen() {
+
+//		test test2=new test();
+	}
+	private void test() {
+		LinkedList<Integer> dq=new LinkedList<Integer>();
+		Iterator<Integer> iterator=dq.iterator();
+		while (iterator.hasNext())
+			iterator.next();
+
+	}
+
 
 	public int solve(int n) {
 
@@ -11,6 +29,7 @@ public class NQueen {
 		if(row==n) {
 			return 1;
 		}
+
 		int total=0;
 		for(int c=0;c<n;c++) {
 			if(canPlace(place,row,c)) {
@@ -24,7 +43,7 @@ public class NQueen {
 
 	boolean canPlace(int[] place,int r,int c) {
 		for(int i=0;i<r;i++) {
-			if((place[i]==c ||(Math.abs(i-r)==Math.abs(place[i]-c))) {
+			if((place[i]==c ||(Math.abs(i-r)==Math.abs(place[i]-c)))) {
 				return false;
 			}
 		}
